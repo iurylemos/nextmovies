@@ -52,6 +52,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   min-height: 300px;
+  cursor: pointer;
 }
 
 .card:hover,

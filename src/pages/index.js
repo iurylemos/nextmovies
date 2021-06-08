@@ -14,7 +14,7 @@ export default function Home({ list }) {
       <main className={styles.main}>
         <h1 className={styles.title}>Filmes em destaque ⭐</h1>
         <Link href={`/busca`}>
-          <p class={styles.customVariables}>Ir para a Busca</p>
+          <p className={styles.customVariables}>Ir para a Busca</p>
         </Link>
       </main>
       <ul
