@@ -47,6 +47,7 @@ export default function Busca() {
               }}
               key={Math.random()}
             >
+              {console.log(movie.id)}
               <Link href={`/movie/${movie.id}`}>
                 <div>
                   <img
